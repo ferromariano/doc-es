@@ -229,6 +229,21 @@
     </simpara>
    </listitem>
   </varlistentry>
+
+  <varlistentry xml:id="constant.json-object-as-array">
+   <term>
+    <constant>JSON_OBJECT_AS_ARRAY</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Decodifica objetos JSON como matriz PHP. Esta opción se puede 
+     agregar automáticamente llamando a json_decode() con el segundo 
+     parámetro igual a verdadero.
+    </simpara>
+   </listitem>
+  </varlistentry>
+  
   <varlistentry xml:id="constant.json-pretty-print">
    <term>
     <constant>JSON_PRETTY_PRINT</constant>
